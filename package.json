@@ -1,31 +1,8 @@
 {
-  "devDependencies": {
-    "@babel/core": "^7.22.5",
-    "@babel/node": "^7.22.5",
-    "@babel/preset-env": "^7.22.5",
-    "@babel/preset-react": "^7.22.5",
-    "@babel/preset-typescript": "7.22.5",
-    "@types/react": "18.2.12",
-    "@types/react-dom": "18.2.5",
-    "babel-loader": "^9.1.2",
-    "css-loader": "^6.8.1",
-    "html-webpack-plugin": "5.5.3",
-    "image-webpack-loader": "^8.1.0",
-    "node-sass": "^9.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sass-loader": "^13.3.2",
-    "style-loader": "^3.3.3",
-    "ts-loader": "9.4.3",
-    "typescript": "5.1.3",
-    "webpack": "5.87.0",
-    "webpack-cli": "5.1.4",
-    "webpack-dev-server": "4.15.1"
+  "author": "Carl (Cid) Romero",
+  "bugs": {
+    "url": "https://github.com/dot-ccrdev/react-init/issues"
   },
-  "name": "@dot-ccrdev/budge-it",
-  "description": "An app for making money moves.",
-  "version": "0.1.0",
-  "main": "index.js",
   "dependencies": {
     "acorn": "8.8.2",
     "acorn-import-assertions": "1.9.0",
@@ -109,21 +86,47 @@
     "which": "2.0.2",
     "wildcard": "2.0.1"
   },
-  "scripts": {
-    "start": "webpack serve --mode=development",
-    "build": "webpack --mode=production"
+  "description": "A React project initialized with Babel, TypeScript, and Webpack",
+  "devDependencies": {
+    "@babel/core": "7.22.5",
+    "@babel/node": "7.22.5",
+    "@babel/preset-env": "7.22.5",
+    "@babel/preset-react": "7.22.5",
+    "@babel/preset-typescript": "7.22.5",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "babel-loader": "9.1.2",
+    "css-loader": "6.8.1",
+    "html-webpack-plugin": "5.5.3",
+    "image-webpack-loader": "8.1.0",
+    "node-sass": "9.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass-loader": "13.3.2",
+    "style-loader": "3.3.3",
+    "ts-loader": "9.4.3",
+    "typescript": "5.1.3",
+    "webpack": "5.87.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
   },
+  "homepage": "https://github.com/dot-ccrdev/react-init#readme",
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack",
+    "babel"
+  ],
+  "license": "MIT",
+  "main": "index.tsx",
+  "name": "@dot-ccrdev/react-init",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dot-ccrdev/budge-it.git"
+    "url": "git+https://github.com/dot-ccrdev/react-init.git"
   },
-  "keywords": [
-    "react"
-  ],
-  "author": "Carl (Cid)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dot-ccrdev/budge-it/issues"
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack serve --mode=development"
   },
-  "homepage": "https://github.com/dot-ccrdev/budge-it#readme"
+  "version": "0.1.0"
 }
