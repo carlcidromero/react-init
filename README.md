@@ -1,2 +1,2 @@
 # react-init
-A React app initialized with Babel, TypeScript, and Webpack.
+A React project initialized with Babel, TypeScript, and Webpack.
