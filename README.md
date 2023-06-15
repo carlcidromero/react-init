@@ -1,2 +1,2 @@
-# budge-it
-An app for making money moves.
+# react-init
+A React app initialized with Babel, TypeScript, and Webpack.
